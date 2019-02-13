@@ -1,0 +1,51 @@
+body{
+  padding:0;
+  margin:0;
+}
+
+.container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  height:100vh;
+}
+
+.left-col{
+  background-image:url("https://scontent.fman2-2.fna.fbcdn.net/v/t1.0-9/51718049_2403814409653547_2013343130627080192_n.jpg?_nc_cat=106&_nc_ht=scontent.fman2-2.fna&oh=614b92ad95d90e526d04e87ec31ecd83&oe=5CE3A93E");
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.right-col{
+  background-color:#ffff00;
+}
+
+.text{
+  padding:0 20px;
+  }
+.text ul {
+  list-style:none;
+  }
+.text li{
+  display:inline-block;
+}
+h1{
+  font-family: "Abril Fatface", cursive;
+  font-size:100px;
+
+}
+h2{
+  font-family: 'Calligraffitti', cursive;
+  font-size:40px;
+  margin:-60px 0 0 0;
+  text-align:right;
+  color:gold;
+}
+p{
+  font-family: 'Noto Sans', sans-serif;
+  font-size:23px;
+  
+}
+footer{
+  text-align:center;
+  padding:10px;
+}
