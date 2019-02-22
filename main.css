@@ -56,8 +56,9 @@ p{
 
 }
 footer{
+  size:10px;
   text-align:center;
-  padding:10px;
+  padding:8px;
   color:white;
   background-color:black;
 }
